@@ -1,0 +1,27 @@
+{
+  "name": "geojson-sse-map-random",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy browser.js:bundle.js --live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/finnp/geojson-sse-map-random.git"
+  },
+  "author": "Finn Pauls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/finnp/geojson-sse-map-random/issues"
+  },
+  "homepage": "https://github.com/finnp/geojson-sse-map-random",
+  "dependencies": {
+    "leaflet": "^0.7.3"
+  },
+  "devDependencies": {
+    "beefy": "^2.1.0",
+    "browserify": "^5.10.0"
+  }
+}
